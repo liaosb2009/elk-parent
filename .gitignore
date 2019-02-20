@@ -9,13 +9,13 @@
 .settings
 .springBeans
 .sts4-cache
-
+mvnw.*
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-
+*.cmd
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -23,3 +23,4 @@
 /nbdist/
 /.nb-gradle/
 /build/
+/.mvn/
