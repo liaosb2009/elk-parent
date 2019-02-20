@@ -34,6 +34,9 @@
 			<scope>test</scope>
 		</dependency>
 
+
+
+
 		<!--通过feign访问memberservice -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
