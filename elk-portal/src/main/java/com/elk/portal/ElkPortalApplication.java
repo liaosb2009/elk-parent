@@ -7,6 +7,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * 门户
+ */
 @SpringBootApplication
 @ServletComponentScan // 启用扫描Servlet,包括监听，过滤，servlet本身
 @EnableFeignClients // 启用Feign客户端
