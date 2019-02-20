@@ -1,0 +1,11 @@
+ #当前项目下生产日志文件
+logging:
+  path: /
+server:
+  port: 8181
+spring:
+  application:
+    name: elk-portal
+  profiles:
+    active: dev
+    #active: ${profile.env}
