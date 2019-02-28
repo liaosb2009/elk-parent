@@ -1,11 +1,17 @@
  #当前项目下生产日志文件
 logging:
-  path: /
+  path: \
 server:
   port: 8181
 spring:
+  main:
+  #//操，巨坑，boot2.1后同一fegin上同一访问name会报错，需要设置，智障限制
+    allow-bean-definition-overriding: true
   application:
     name: elk-portal
   profiles:
     active: dev
     #active: ${profile.env}
+# Shiro
+shiro:
+   configLocation: classpath:/templates/shiro/ehcache.xml

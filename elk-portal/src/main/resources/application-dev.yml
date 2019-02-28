@@ -1,11 +1,7 @@
 spring:
     datasource:
         name: elk-portal
-#       url: jdbc:mysql://rm-8vb7wz66rxrg65b5zzo.mysql.zhangbei.rds.aliyuncs.com:3306/fangqian_pms?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-#       username: yujian
-#       password: yujian1qaz2wsx
-        #url: jdbc:mysql://127.0.0.1:3306/pms?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-        url: jdbc:mysql://127.0.01:3306/pms?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+        url: jdbc:mysql://127.0.01:3306/topsec_user?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
         username: root
         password: 123456
         #password: 123456
